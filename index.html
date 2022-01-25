@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;700&display=swap" rel="stylesheet">
+    <title>Creative Agency</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" alt="logo" class="logo-img">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item left">
+                        <a href="#anchor_work" class="nav-link">work</a>
+                    </li>
+                    <li class="nav-item left">
+                        <a href="#anchor_about" class="nav-link">about</a>
+                    </li>
+                    <li class="nav-item left">
+                        <a href="#anchor_blog" class="nav-link">blog</a>
+                    </li>
+                    <li class="nav-item left">
+                        <a href="#anchor_contact" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="about" id="anchor_about">
+                <div class="about-company">
+                    <div class="info left">
+                        <h1>
+                            Hello!!! <br>
+                            We Are Creative <br>
+                            Digital Agency.
+                        </h1>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#anchor_contact" class="send_ms">SEND MESSAGE</a>
+                    </div>
+                    <video class="info_about" width="700" controls poster="./assets/images/poster_movie.png">
+                        <source src="./assets/video/movie.mp4">
+                        <source src="./assets/video/movie.ogv">
+                    </video>
+                </div>
+                <div class="company" id="anchor_work">
+                    <img src="./assets/images/gats_food.png" alt="logo company gats food" class="company-icon">
+                    <img src="./assets/images/dakota_adventure.png" alt="logo company dakota adventure" class="company-icon">
+                    <img src="./assets/images/dakota.png" alt="logo company dakota" class="company-icon dakota">
+                    <img src="./assets/images/vintage_style.png" alt="logo company vintage style" class="company-icon">
+                    <img src="./assets/images/gats.png" alt="logo company gats" class="company-icon">
+                    <img src="./assets/images/bakery.png" alt="logo company bakery" class="company-icon">
+                </div>
+            </section>
+            <section class="blog" id="anchor_blog">
+                <h2>our blog.</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="blog-card">
+                    <iframe width="500" height="255" src="https://www.youtube.com/embed/9m45nVsvvEY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h4>SUPER BLOG ARTICLE!</h4>
+                    <p class="description blog-description">Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.</p>
+                    <time datetime="2020-05-20">20 May 2020</time>
+                </div>
+                <div class="blog-card">
+                    <iframe width="500" height="255" src="https://www.youtube.com/embed/YDPFMTNOxOg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h4>SUPER BLOG ARTICLE!</h4>
+                    <p class="description blog-description">Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.</p>
+                    <time datetime="2020-05-20">20 May 2020</time>
+                </div>
+                <div class="blog-card">
+                    <iframe width="500" height="255" src="https://www.youtube.com/embed/fS4cH2fky5M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h4>SUPER BLOG ARTICLE!</h4>
+                    <p class="description blog-description">Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.</p>
+                    <time datetime="2020-05-20">20 May 2020</time>
+                </div>
+            </section>
+            <section class="contactus" id="anchor_contact">
+                <div class="contact-block">
+                    <h2 class="title">contact us.</h2>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3>Send Us Message.</h3>
+                    <form action="#">
+                        <input type="text" class="sendus" placeholder="Name" required>
+                        <input type="email" class="sendus" placeholder="Email" required>
+                        <textarea name="user_message" id="user_message" placeholder="Message" class="sendus message" required></textarea>
+                        <input type="submit" value="SEND MESSAGE" class="send_ms">
+                    </form>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-list">
+                        <div class="contact-info left">
+                            <img class="contacts-img" src="./assets/images/address.png" alt="address">
+                            <address>1211 Awesome Avenue, NY USD</address>
+                        </div>
+                        <div class="contact-info left">
+                            <img class="contacts-img" src="./assets/images/phone.png" alt="phone">
+                            <ul>
+                                <li><a class="tel-link" href="tel:+0012345678">+00 123 - 456 -78</a></li>
+                                <li><a class="tel-link" href="tel:+0012345678">+00 123 - 456 -78</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-info left">
+                            <img class="contacts-img" src="./assets/images/mail.png" alt="mail">
+                            <a class="mail" href="mailto:mint@mintmail.com">mint@mintmail.com</a>
+                        </div>
+                    </div>
+                    <ul class="social_contacts">
+                        <li class="social-item">
+                            <a class="social-link" href="#"><img class="social-img" src="./assets/images/fb.png" alt="facebook"></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#"><img class="social-img" src="./assets/images/tw.png" alt="twitter"></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#"><img class="social-img" src="./assets/images/cirkle.png" alt="cirkle"></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <a href="#">
+                <img class="logo-img left" src="./assets/images/logo_white.png" alt="logo">
+            </a>
+            <p class="copyright left">&#169; 2020 - Mint, All Right Reserved</p>
+            <a class="nav-top" href="#anchor_about">BACK TO TOP</a>
+        </div>
+    </footer>
+</body>
+</html>
